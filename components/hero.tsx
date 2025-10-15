@@ -22,7 +22,8 @@ export function Hero() {
             </a>
           </Button>
           <Button asChild variant="outline" size="lg" className="min-w-[160px] bg-transparent">
-            <a href="/resume.pdf" download>
+            {/* --- ВОТ ИЗМЕНЕННАЯ СТРОКА --- */}
+            <a href="/resume.pdf" download="Ivan_Mikhailik_Resume.pdf">
               Download Resume
               <Download className="ml-2 h-4 w-4" />
             </a>
