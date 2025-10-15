@@ -62,9 +62,11 @@ export function Contact() {
               <div>
                 <h3 className="font-semibold text-lg mb-4 text-foreground">Quick Actions</h3>
                 <div className="space-y-3">
-                  <Button className="w-full justify-start bg-transparent" variant="outline">
-                    <Download className="mr-2 h-4 w-4" />
-                    Download Resume
+                  <Button className="w-full justify-start bg-transparent" variant="outline" asChild>
+                    <a href="/resume.pdf" download="Ivan_Mikhailik_Resume.pdf">
+                      <Download className="mr-2 h-4 w-4" />
+                      Download Resume
+                    </a>
                   </Button>
                   <Button className="w-full justify-start" asChild>
                     <a href="mailto:vyacheslavovich.ivan@gmail.com">

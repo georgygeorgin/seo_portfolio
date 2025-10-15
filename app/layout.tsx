@@ -22,6 +22,14 @@ export const metadata: Metadata = {
   description:
     "Portfolio of Ivan Mikhailik - Junior SEO Specialist with 6 years of e-commerce experience. Showcasing SEO projects and digital marketing expertise.",
   generator: "v0.app",
+  icons: {
+    icon: "/favicon.jpg",
+  },
+  openGraph: {
+    title: "Ivan Mikhailik | Junior SEO Specialist",
+    description: "Portfolio of Ivan Mikhailik - Junior SEO Specialist with 6 years of e-commerce experience.",
+    type: "website",
+  },
 }
 
 export default function RootLayout({
